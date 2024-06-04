@@ -60,10 +60,17 @@ Feel free to include this information in your README! 😊
 Done! Now your files are on GitHub, and you can collaborate with other developers on your project⁴⁶⁷. 😊
 
 (1) Uploading a project to GitHub - GitHub Docs. https://docs.github.com/en/get-started/start-your-journey/uploading-a-project-to-github.
+
 (2) Git Bash Mastery: Uploading to GitHub — Your Complete Guide. https://medium.com/@rushikeshgalgale54/git-bash-mastery-uploading-to-github-your-complete-guide-fda3269363af.
+
 (3) git - Upload local repository to github.com - Stack Overflow. https://stackoverflow.com/questions/51997057/upload-local-repository-to-github-com.
+
 (4) How To Upload Project/File/Folder on Github | How To Upload Project on Github. https://www.youtube.com/watch?v=LrtUWq9KBeA.
+
 (5) Git and GitHub for Beginners - Crash Course. https://www.youtube.com/watch?v=RGOj5yH7evk.
+
 (6) How to Install and Configure Git and GitHub on Windows 11. https://www.youtube.com/watch?v=AdzKzlp66sQ.
+
 (7) How to Upload a Project on Github? - GeeksforGeeks. https://www.geeksforgeeks.org/how-to-upload-a-project-on-github/.
+
 (8) undefined. https://github.com/my_username/my_project.git.
