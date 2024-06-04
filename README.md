@@ -23,3 +23,49 @@ Este programa es una implementación básica y no incluye persistencia de datos,
 
 Este texto proporciona una visión general del código y puede ser incluido en el archivo README para ayudar a los usuarios a entender y utilizar la aplicación de lista de tareas.
 
+Claro, puedo ayudarte con eso. Aquí tienes los pasos para crear un repositorio en GitHub y subir tus archivos utilizando Git:
+
+1. **Crear un nuevo repositorio en GitHub:**
+    - Ve a GitHub y haz clic en el botón "New" para crear un repositorio.
+    - Asigna un nombre y una descripción al repositorio.
+    - Decide si quieres que sea público o privado.
+    - Selecciona la opción para agregar un archivo README (esto es opcional, pero es útil para proporcionar información sobre tu proyecto).
+
+2. **Inicializar Git en tu proyecto local:**
+    - Abre Git Bash o la terminal en tu computadora.
+    - Navega hasta la carpeta de tu proyecto utilizando el comando `cd`.
+    - Ejecuta `git init` para inicializar un repositorio Git local.
+
+3. **Agregar y confirmar tus archivos:**
+    - Coloca tus archivos y carpetas en la carpeta del proyecto.
+    - Usa los siguientes comandos:
+        ```
+        git add .
+        git commit -m "Mensaje de confirmación"
+        ```
+
+4. **Conectar tu repositorio local con GitHub:**
+    - Copia la URL del repositorio que creaste en GitHub.
+    - Ejecuta el siguiente comando para agregar la URL como origen remoto:
+        ```
+        git remote add origin <URL_del_repositorio>
+        ```
+
+5. **Subir tus archivos a GitHub:**
+    - Utiliza el comando:
+        ```
+        git push -u origin master
+        ```
+    - Esto subirá tus archivos al repositorio en GitHub.
+
+¡Listo! Ahora tus archivos están en GitHub y puedes colaborar con otros desarrolladores en tu proyecto⁴⁶⁷. 😊
+
+
+(1) Uploading a project to GitHub - GitHub Docs. https://docs.github.com/en/get-started/start-your-journey/uploading-a-project-to-github.
+(2) Git Bash Mastery: Uploading to GitHub — Your Complete Guide. https://medium.com/@rushikeshgalgale54/git-bash-mastery-uploading-to-github-your-complete-guide-fda3269363af.
+(3) git - Upload local repository to github.com - Stack Overflow. https://stackoverflow.com/questions/51997057/upload-local-repository-to-github-com.
+(4) How To Upload Project/File/Folder on Github | How To Upload Project on Github. https://www.youtube.com/watch?v=LrtUWq9KBeA.
+(5) Git and GitHub for Beginners - Crash Course. https://www.youtube.com/watch?v=RGOj5yH7evk.
+(6) How to Install and Configure Git and GitHub on Windows 11. https://www.youtube.com/watch?v=AdzKzlp66sQ.
+(7) How to Upload a Project on Github? - GeeksforGeeks. https://www.geeksforgeeks.org/how-to-upload-a-project-on-github/.
+(8) undefined. https://github.com/my_username/my_project.git.
