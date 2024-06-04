@@ -1,65 +1,63 @@
- Organizador de Tareas
+# Task Organizer
 
-El archivo `ToDoList.java` implementa una aplicación de consola simple para gestionar una lista de tareas. A continuación se detallan las características y el funcionamiento del programa:
+The `ToDoList.java` file implements a simple console application for managing a task list. Below are the features and functionality of the program:
 
-## Características
-- **Gestión de Tareas**: Permite al usuario añadir, eliminar, ver y marcar tareas como realizadas.
-- **Interfaz de Usuario**: Interfaz de consola con un menú de opciones para interactuar con la lista de tareas.
-- **Almacenamiento Temporal**: Las tareas se almacenan temporalmente en memoria durante la ejecución del programa.
+## Features
+- **Task Management**: Allows users to add, delete, view, and mark tasks as completed.
+- **User Interface**: Console interface with a menu of options for interacting with the task list.
+- **Temporary Storage**: Tasks are temporarily stored in memory during program execution.
 
-## Funcionamiento
-1. **Añadir Tarea**: El usuario puede añadir nuevas tareas a la lista.
-2. **Eliminar Tarea**: Permite al usuario eliminar una tarea basándose en su índice en la lista.
-3. **Ver Tareas**: Muestra todas las tareas actuales y sus estados.
-4. **Marcar Tarea como Hecha**: El usuario puede marcar una tarea como realizada, lo cual añade el prefijo "[Hecho]" a la tarea correspondiente.
-5. **Salir**: Termina la ejecución del programa y cierra la aplicación.
+## Functionality
+1. **Add Task**: Users can add new tasks to the list.
+2. **Delete Task**: Allows users to remove a task based on its index in the list.
+3. **View Tasks**: Displays all current tasks and their statuses.
+4. **Mark Task as Done**: Users can mark a task as completed, adding the "[Done]" prefix to the corresponding task.
+5. **Exit**: Ends the program execution and closes the application.
 
-## Uso
-Para utilizar la aplicación, el usuario debe ejecutar el archivo `ToDoList.java`. Una vez iniciado, se presentará un menú con las opciones disponibles. El usuario selecciona una opción ingresando el número correspondiente y sigue las instrucciones en pantalla para gestionar sus tareas.
+## Usage
+To use the application, the user should execute the `ToDoList.java` file. Once launched, a menu with available options will be presented. The user selects an option by entering the corresponding number and follows the on-screen instructions to manage their tasks.
 
-## Nota
-Este programa es una implementación básica y no incluye persistencia de datos, por lo que las tareas se perderán al cerrar la aplicación.
-```
+## Note
+This program is a basic implementation and does not include data persistence, so tasks will be lost when the application is closed.
+Feel free to include this information in your README! 😊
 
-Este texto proporciona una visión general del código y puede ser incluido en el archivo README para ayudar a los usuarios a entender y utilizar la aplicación de lista de tareas.
 
-Claro, puedo ayudarte con eso. Aquí tienes los pasos para crear un repositorio en GitHub y subir tus archivos utilizando Git:
 
-1. **Crear un nuevo repositorio en GitHub:**
-    - Ve a GitHub y haz clic en el botón "New" para crear un repositorio.
-    - Asigna un nombre y una descripción al repositorio.
-    - Decide si quieres que sea público o privado.
-    - Selecciona la opción para agregar un archivo README (esto es opcional, pero es útil para proporcionar información sobre tu proyecto).
 
-2. **Inicializar Git en tu proyecto local:**
-    - Abre Git Bash o la terminal en tu computadora.
-    - Navega hasta la carpeta de tu proyecto utilizando el comando `cd`.
-    - Ejecuta `git init` para inicializar un repositorio Git local.
+1. **Create a New Repository on GitHub:**
+    - Go to GitHub and click the "New" button to create a repository.
+    - Assign a name and description to the repository.
+    - Decide whether it should be public or private.
+    - Select the option to add a README file (this is optional but useful for providing information about your project).
 
-3. **Agregar y confirmar tus archivos:**
-    - Coloca tus archivos y carpetas en la carpeta del proyecto.
-    - Usa los siguientes comandos:
+2. **Initialize Git in Your Local Project:**
+    - Open Git Bash or the terminal on your computer.
+    - Navigate to your project folder using the `cd` command.
+    - Execute `git init` to initialize a local Git repository.
+
+3. **Add and Commit Your Files:**
+    - Place your files and folders in the project folder.
+    - Use the following commands:
         ```
         git add .
-        git commit -m "Mensaje de confirmación"
+        git commit -m "Commit message"
         ```
 
-4. **Conectar tu repositorio local con GitHub:**
-    - Copia la URL del repositorio que creaste en GitHub.
-    - Ejecuta el siguiente comando para agregar la URL como origen remoto:
+4. **Connect Your Local Repository to GitHub:**
+    - Copy the URL of the repository you created on GitHub.
+    - Execute the following command to add the URL as a remote origin:
         ```
-        git remote add origin <URL_del_repositorio>
+        git remote add origin <repository_URL>
         ```
 
-5. **Subir tus archivos a GitHub:**
-    - Utiliza el comando:
+5. **Push Your Files to GitHub:**
+    - Use the command:
         ```
         git push -u origin master
         ```
-    - Esto subirá tus archivos al repositorio en GitHub.
+    - This will upload your files to the repository on GitHub.
 
-¡Listo! Ahora tus archivos están en GitHub y puedes colaborar con otros desarrolladores en tu proyecto⁴⁶⁷. 😊
-
+Done! Now your files are on GitHub, and you can collaborate with other developers on your project⁴⁶⁷. 😊
 
 (1) Uploading a project to GitHub - GitHub Docs. https://docs.github.com/en/get-started/start-your-journey/uploading-a-project-to-github.
 (2) Git Bash Mastery: Uploading to GitHub — Your Complete Guide. https://medium.com/@rushikeshgalgale54/git-bash-mastery-uploading-to-github-your-complete-guide-fda3269363af.
